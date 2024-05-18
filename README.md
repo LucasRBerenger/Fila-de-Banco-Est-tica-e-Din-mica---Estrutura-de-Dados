@@ -9,13 +9,13 @@ Com base no problema exposto, crie um programa que atenda as necessidades do cen
 - CADASTRAR CLIENTES -> PRIORIDADE: deve permitir o cadastro do nome dos clientes em uma estrutura FILA, com no máximo 5 clientes. Assim que 5 clientes forem cadastrados, o processo de cadastro deve ser bloqueado. O programa não deve permitir que nomes em branco sejam registrados.
 - LIBERAR ATENDIMENTO: deve liberar 2 clientes da FILA NORMAL e 1 cliente da FILA PRIORIDADE, com um delay de 5 segundos entre eles. Caso uma das FILAS esteja sem clientes, mostre na tela “Sem clientes na fila de prioridade ou fila normal”. Se ambas as Filas estiverem vazias, emita a mensagem “Sem clientes para atendimento” e permita retornar ao menu principal.
 
-## Tela de Atendimento Liberado
+## Sugestão de Tela de Atendimento Liberado
 Clientes Atendimento Comum
-- Atendimento ao cliente <nome> ou “Sem clientes aguardando”
-- Atendimento ao cliente <nome> ou “Sem clientes aguardando”
+Atendimento ao cliente <nome> ou “Sem clientes aguardando”
+Atendimento ao cliente <nome> ou “Sem clientes aguardando”
 
 Clientes Atendimento Prioridade
-- Atendimento ao cliente <nome> ou “Sem clientes aguardando”
+Atendimento ao cliente <nome> ou “Sem clientes aguardando”
 
 Deseja prosseguir(S/N)? Caso sim, repita a rotina. Caso não, retorne para o MENU.
 
